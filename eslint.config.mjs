@@ -28,6 +28,6 @@ export default [
     },
   },
   {
-    ignores: ['.node_modules/*'],
+    ignores: ['**/.env', '.node_modules/*'],
   },
 ];
